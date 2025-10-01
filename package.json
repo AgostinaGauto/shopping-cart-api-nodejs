@@ -1,0 +1,29 @@
+{
+  "name": "ventas",
+  "version": "1.0.0",
+  "description": "- npm // gestor de paquestes de Node.Js\r - npm init -y // para inicializar el proyecto (primer comando que hay que lanzar antes de descargar las dependencias)\r - npm run 'especificar nombre'//  Usará Nodemon para iniciar app.js\r - express // libreria de funciones y herramientas listas para manejar rutas, peticiones HTTP y respuestas sin programar desde cero\r - nodemon // reinicia el servidor al detectar cambios en los archivos, evitando reiniciar la app por cada nuevo cambio\r - dotenv // permite cargar y procesar las variables de entorno del archivo, evitando reiniciar la app por cada nuevo cambio\r - handlebars // permite mezclar lógica de programación dentro del HTML\r - express-validator // se útiliza junto a express para validar los datos de las solicitudes HTTP\r - express-session // gestiona junto con express las sesiones de usuario en el servidor  (guarda info del user entre peticiones)\r - connect_flash // permite mostrarle mensajes de exito, error o advertencia al usuario\r - sequelize // es el orm de Node.Js\r - mysql2 // libreria que envia las consultas a la BD y recibe los resultados",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "mysql2": "^3.15.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
